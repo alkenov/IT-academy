@@ -13,7 +13,7 @@ def get_random_name():
 def get_file_name():
     exist = set()
     file_name = None
-    while True:
+    whil True:
         previous = yield file_name
         file_parts = previous.split('.')
         extension = file_parts[-1]
